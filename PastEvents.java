@@ -41,10 +41,6 @@ public class PastEvents{
     }
 
     
-    private void calculateCost() {
-        double cost = 1000 + (1000 * tax);
-    }
-
     @Override
     public String toString() {
         return "\n" + "Event ID:" + eventID + "\n" + "They past event details: " + "\n" + 
